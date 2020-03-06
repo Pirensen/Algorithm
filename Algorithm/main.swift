@@ -8,6 +8,6 @@
 
 import Foundation
 
-
+print("maxCommonDivisor \(maxCommonDivisor(numb1: 240, numb2: 32))")
 
 

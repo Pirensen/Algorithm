@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A56E6662410FE3400733FE6 /* 交换两个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A56E6652410FE3400733FE6 /* 交换两个数.swift */; };
+		3A56E6682411004F00733FE6 /* 公倍数公约数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A56E6672411004F00733FE6 /* 公倍数公约数.swift */; };
+		3A57D1D1240CBAE100E31C34 /* BookingTest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57D1D0240CBAE100E31C34 /* BookingTest1.swift */; };
+		3A57D1D3240CBB8A00E31C34 /* 最多连续字母.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57D1D2240CBB8A00E31C34 /* 最多连续字母.swift */; };
+		3A57D1D5240CBCA200E31C34 /* Z 字形变换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57D1D4240CBCA200E31C34 /* Z 字形变换.swift */; };
 		3A61038624079FAF00BB5DB2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61038524079FAF00BB5DB2 /* main.swift */; };
 		3A61038D24079FC700BB5DB2 /* 贪心.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61038C24079FC700BB5DB2 /* 贪心.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +29,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A56E6652410FE3400733FE6 /* 交换两个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "交换两个数.swift"; sourceTree = "<group>"; };
+		3A56E6672411004F00733FE6 /* 公倍数公约数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "公倍数公约数.swift"; sourceTree = "<group>"; };
+		3A57D1D0240CBAE100E31C34 /* BookingTest1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTest1.swift; sourceTree = "<group>"; };
+		3A57D1D2240CBB8A00E31C34 /* 最多连续字母.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最多连续字母.swift"; sourceTree = "<group>"; };
+		3A57D1D4240CBCA200E31C34 /* Z 字形变换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Z 字形变换.swift"; sourceTree = "<group>"; };
 		3A61038224079FAF00BB5DB2 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A61038524079FAF00BB5DB2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3A61038C24079FC700BB5DB2 /* 贪心.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "贪心.swift"; sourceTree = "<group>"; };
@@ -61,6 +71,11 @@
 			children = (
 				3A61038524079FAF00BB5DB2 /* main.swift */,
 				3A61038C24079FC700BB5DB2 /* 贪心.swift */,
+				3A57D1D0240CBAE100E31C34 /* BookingTest1.swift */,
+				3A57D1D2240CBB8A00E31C34 /* 最多连续字母.swift */,
+				3A57D1D4240CBCA200E31C34 /* Z 字形变换.swift */,
+				3A56E6652410FE3400733FE6 /* 交换两个数.swift */,
+				3A56E6672411004F00733FE6 /* 公倍数公约数.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -123,8 +138,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A57D1D3240CBB8A00E31C34 /* 最多连续字母.swift in Sources */,
 				3A61038D24079FC700BB5DB2 /* 贪心.swift in Sources */,
+				3A56E6682411004F00733FE6 /* 公倍数公约数.swift in Sources */,
+				3A56E6662410FE3400733FE6 /* 交换两个数.swift in Sources */,
+				3A57D1D1240CBAE100E31C34 /* BookingTest1.swift in Sources */,
 				3A61038624079FAF00BB5DB2 /* main.swift in Sources */,
+				3A57D1D5240CBCA200E31C34 /* Z 字形变换.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
