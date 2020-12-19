@@ -16,6 +16,8 @@
 		3A61038D24079FC700BB5DB2 /* 贪心.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61038C24079FC700BB5DB2 /* 贪心.swift */; };
 		3AB5853D258E06A500A3C2E9 /* 去处重复字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5853B258E06A500A3C2E9 /* 去处重复字符.swift */; };
 		3AB5853E258E06A500A3C2E9 /* 链表中删去总和值为0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5853C258E06A500A3C2E9 /* 链表中删去总和值为0.swift */; };
+		3AB58542258E08F400A3C2E9 /* 最大子序和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB58541258E08F400A3C2E9 /* 最大子序和.swift */; };
+		3AB58545258E110000A3C2E9 /* BaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB58544258E110000A3C2E9 /* BaseData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +43,8 @@
 		3A61038C24079FC700BB5DB2 /* 贪心.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "贪心.swift"; sourceTree = "<group>"; };
 		3AB5853B258E06A500A3C2E9 /* 去处重复字符.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "去处重复字符.swift"; sourceTree = "<group>"; };
 		3AB5853C258E06A500A3C2E9 /* 链表中删去总和值为0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "链表中删去总和值为0.swift"; sourceTree = "<group>"; };
+		3AB58541258E08F400A3C2E9 /* 最大子序和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最大子序和.swift"; sourceTree = "<group>"; };
+		3AB58544258E110000A3C2E9 /* BaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				3A61038524079FAF00BB5DB2 /* main.swift */,
+				3AB58541258E08F400A3C2E9 /* 最大子序和.swift */,
+				3AB58544258E110000A3C2E9 /* BaseData.swift */,
 				3A61038C24079FC700BB5DB2 /* 贪心.swift */,
 				3A57D1D0240CBAE100E31C34 /* BookingTest1.swift */,
 				3A57D1D2240CBB8A00E31C34 /* 最多连续字母.swift */,
@@ -144,8 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB58542258E08F400A3C2E9 /* 最大子序和.swift in Sources */,
 				3AB5853E258E06A500A3C2E9 /* 链表中删去总和值为0.swift in Sources */,
 				3A57D1D3240CBB8A00E31C34 /* 最多连续字母.swift in Sources */,
+				3AB58545258E110000A3C2E9 /* BaseData.swift in Sources */,
 				3A61038D24079FC700BB5DB2 /* 贪心.swift in Sources */,
 				3A56E6682411004F00733FE6 /* 公倍数公约数.swift in Sources */,
 				3A56E6662410FE3400733FE6 /* 交换两个数.swift in Sources */,
