@@ -23,12 +23,44 @@ class BidirectLinkedNode {
 
 //普通链表
 class LinkedNode {
-    let key: Int
-    var value: Int
+    var value: Int = 0
+    var next: LinkedNode?
     
-    init(_ key: Int,_ value: Int) {
-        self.key = key
-        self.value = value
+    static func genNodeChain(_ values:[Int]) -> LinkedNode? {
+        if (values.count == 0) {
+            return nil
+        }
+        
+        var head: LinkedNode?
+        var lastNode: LinkedNode?
+        for (index,value) in values.enumerated() {
+            if (index == 0) {
+                head = LinkedNode()
+                head?.value = value
+                lastNode = head
+            } else {
+                let nextNode = LinkedNode()
+                nextNode.value = value
+                lastNode?.next = nextNode
+                lastNode = nextNode
+            }
+        }
+
+        return head
+    }
+    
+    func lookNode(_ head: LinkedNode?) {
+        if (head == nil) {
+            return
+        }
+        print("====begin====")
+        var lastNode: LinkedNode = head ?? LinkedNode()
+        while (lastNode.next != nil) {
+            print("\(lastNode.value) -->")
+            lastNode = lastNode.next ?? LinkedNode()
+        }
+        print("\(lastNode.value) -->")
+        print("=====end=====")
     }
 }
 

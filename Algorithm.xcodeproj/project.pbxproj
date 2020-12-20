@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				3A61038524079FAF00BB5DB2 /* main.swift */,
-				3AB58541258E08F400A3C2E9 /* 最大子序和.swift */,
 				3AB58544258E110000A3C2E9 /* BaseData.swift */,
+				3AB58541258E08F400A3C2E9 /* 最大子序和.swift */,
 				3A61038C24079FC700BB5DB2 /* 贪心.swift */,
 				3A57D1D0240CBAE100E31C34 /* BookingTest1.swift */,
 				3A57D1D2240CBB8A00E31C34 /* 最多连续字母.swift */,
