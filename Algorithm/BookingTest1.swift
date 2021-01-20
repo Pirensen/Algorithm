@@ -14,8 +14,8 @@ import Foundation
 func calculate(array: Array<Int>) {
     var copyArr: Array<Int> = []
     var formerNumber: Int = 0;
-    for currentNumber: Int in array {
-        if abs(currentNumber - formerNumber) > 127 {
+    for (index, currentNumber) in array.enumerated() {
+        if (abs(currentNumber - formerNumber) > 127) && index != 0 {
             copyArr.append(-128)
         }
         copyArr.append(currentNumber - formerNumber)
@@ -24,3 +24,23 @@ func calculate(array: Array<Int>) {
     
     print(copyArr)
 }
+
+extension Array where Element == Int {
+    
+    /// Returns a delta encoded version of the array
+    public func deltaEncoded() -> [Element] {
+        var copyArr: Array<Int> = []
+        var formerNumber: Int = 0
+        for currentNumber: Int in self {
+            if abs(currentNumber - formerNumber) > 127 {
+                copyArr.append(-128)
+            }
+            copyArr.append(currentNumber - formerNumber)
+            formerNumber = currentNumber
+        }
+        
+        return copyArr
+    }
+}
+
+

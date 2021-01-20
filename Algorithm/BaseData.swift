@@ -49,7 +49,7 @@ class LinkedNode {
         return head
     }
     
-    func lookNode(_ head: LinkedNode?) {
+    static func lookNode(_ head: LinkedNode?) {
         if (head == nil) {
             return
         }
