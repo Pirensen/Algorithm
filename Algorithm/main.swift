@@ -8,9 +8,6 @@
 
 import Foundation
 
-
-
-
 extension String {
     /// Returns whether the string is a pangram or not
     public func isPangram() -> Bool {
@@ -130,12 +127,7 @@ struct Solutions {
 }
 
 
-
-
-
-
-
-Solutions.polygonCount(from: ["36 30 36 30", "15 15 15 15", "46 96 90 100", "86 86 86 86", "100 200 100 200", "-100 200 -100 200"])
+//Solutions.polygonCount(from: ["36 30 36 30", "15 15 15 15", "46 96 90 100", "86 86 86 86", "100 200 100 200", "-100 200 -100 200"])
 
 
 
@@ -205,5 +197,9 @@ Solutions.polygonCount(from: ["36 30 36 30", "15 15 15 15", "46 96 90 100", "86 
 //}
 
 
-calculate(array: [1000,0,100])
+//calculate(array: [1000,0,100])
+
+var inputarr = [12, 10, 11]
+quickSort(data: &inputarr, low: 0, high: 2)
+print(inputarr)
 

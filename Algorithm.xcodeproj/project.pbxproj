@@ -25,6 +25,8 @@
 		3AB5853E258E06A500A3C2E9 /* 链表中删去总和值为0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5853C258E06A500A3C2E9 /* 链表中删去总和值为0.swift */; };
 		3AB58542258E08F400A3C2E9 /* 最大子序和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB58541258E08F400A3C2E9 /* 最大子序和.swift */; };
 		3AB58545258E110000A3C2E9 /* BaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB58544258E110000A3C2E9 /* BaseData.swift */; };
+		75C395F7278D39D20016F53F /* 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C395F6278D39D10016F53F /* 反转链表.swift */; };
+		75F7E36C27C8768C0003357D /* 排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F7E36B27C8768C0003357D /* 排序.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +61,8 @@
 		3AB5853C258E06A500A3C2E9 /* 链表中删去总和值为0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "链表中删去总和值为0.swift"; sourceTree = "<group>"; };
 		3AB58541258E08F400A3C2E9 /* 最大子序和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最大子序和.swift"; sourceTree = "<group>"; };
 		3AB58544258E110000A3C2E9 /* BaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseData.swift; sourceTree = "<group>"; };
+		75C395F6278D39D10016F53F /* 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "反转链表.swift"; sourceTree = "<group>"; };
+		75F7E36B27C8768C0003357D /* 排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "排序.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +112,9 @@
 				3AB5853C258E06A500A3C2E9 /* 链表中删去总和值为0.swift */,
 				3AB5853B258E06A500A3C2E9 /* 去处重复字符.swift */,
 				3A4CD0E92595816F002EC671 /* 公共祖先.swift */,
+				75C395F6278D39D10016F53F /* 反转链表.swift */,
 				3A9884AA259A110D00F6B104 /* Booking-encode.swift */,
+				75F7E36B27C8768C0003357D /* 排序.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 				3AB5853E258E06A500A3C2E9 /* 链表中删去总和值为0.swift in Sources */,
 				3A95618625C6CBBB00B9DFB1 /* 位运算.swift in Sources */,
 				3A57D1D3240CBB8A00E31C34 /* 最多连续字母.swift in Sources */,
+				75F7E36C27C8768C0003357D /* 排序.swift in Sources */,
+				75C395F7278D39D20016F53F /* 反转链表.swift in Sources */,
 				3AB58545258E110000A3C2E9 /* BaseData.swift in Sources */,
 				3A9884AB259A110D00F6B104 /* Booking-encode.swift in Sources */,
 				3A95618225C6CBBB00B9DFB1 /* 算法.swift in Sources */,
