@@ -199,7 +199,8 @@ struct Solutions {
 
 //calculate(array: [1000,0,100])
 
-var inputarr = [12, 10, 11]
-quickSort(data: &inputarr, low: 0, high: 2)
-print(inputarr)
+//var inputarr = [12, 10, 11, 9 , 11, 20, 23, 5]
+//quickSort(data: &inputarr, low: 0, high: 2)
+//print(quickOrder(inputarr))
 
+lookNode(deleteDuplicates(genNodeChain([1, 2, 2, 2, 2, 3, 4, 4, 5, 6, 7])!))
